@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .s006 {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color:whitesmoke; 
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+  }
+  
+  .s006 form {
+    width: 100%;
+    max-width: 790px;
+  }
+  
+  .s006 form legend {
+    font-size: 36px;
+    color: #666;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 59px;
+  }
+  
+  .s006 form .innerform {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+  
+  .s006 form .innerform .inputfield {
+    height: 50px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .s006 form .innerform .inputfield input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 32px 10px 70px;
+    font-size: 18px;
+    color: #666;
+    border-radius: 34px;
+  }
+  
+  .s006 form .innerform .inputfield input.placeholder {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .s006 form .innerform .inputfield input:-moz-placeholder {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .s006 form .innerform .inputfield input::-webkit-input-placeholder {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .s006 form .innerform .inputfield input:hover, .s006 form .innerform .inputfield input:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+  
+  .s006 form .innerform .inputfield .btnsearch {
+    width: 70px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    align-items: center;
+  }
+  
+  .s006 form .innerform .inputfield .btnsearch svg {
+    fill: #ccc;
+    width: 30px;
+    height: 30px;
+    transition: all .2s ease-out, color .2s ease-out;
+  }
+  
+  .s006 form .innerform .inputfield .btnsearch:hover, .s006 form .innerform .inputfield .btnsearch:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .s006 form .innerform .inputfield .btnsearch:hover svg, .s006 form .innerform .inputfield .btnsearch:focus svg {
+    fill: #666;
+  }
+  
+  .s006 form .suggestionwrap {
+    padding: 0 15px;
+  }
+  
+  .s006 form .suggestionwrap span {
+    font-size: 14px;
+    font-family: 'Helvetica', sans-serif;
+    background: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    color: black;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width : 40%
+  }
+
+
+  
+  @media screen and (max-width: 767px) {
+    .s006 form .innerform .inputfield {
+      margin-top: -50px;
+      height: 50px;
+    }
+    .s006 form .innerform .inputfield input {
+      padding-left: 55px;
+      font-size: 16px;
+    }
+    .s006 form .innerform .inputfield .btnsearch svg {
+      width: 26px;
+      height: 26px;
+    }
+    .s006 form .suggestionwrap span{
+      margin-right: 0px;
+      display: inline-block;
+      width:100%;
+    }
+
+    .s006 form .suggestionwrap span input {
+      width : 100%;
+    }
+    .s006 form .suggestionwrap span select {
+      width : 100%;
+    }
+    
+    .typeButton {
+      width : 100%
+  }
+    
+  }
+  
+  .s006 form .suggestionwrap span input {
+    height : 40px;
+  }
+  .skills  {
+    text-align: center;
+    width: 30%;
+    color: black;
+    font-size: 18px;
+    border-radius: 16px;
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .skills:hover{
+    box-shadow: none;
+    outline: 0;
+  }
+  
+  .logo-li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+  }
+  
+  .logoimg {
+    width: 100px;
+    margin-bottom: -15px;
+  }
+  
+  
+  
+  

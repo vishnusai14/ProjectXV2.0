@@ -1,0 +1,407 @@
+.postuser .listbox {
+	width: 195px;
+	height: 50px;
+	float: left;
+	background-color: #fff;
+	box-shadow: 0 0 10px 4px #f6f6f6;
+	text-align: center;
+	padding: 17px 30px;
+	border-radius: 5px
+}
+
+.postuser .listbox .marginright {
+	margin-right: 10px
+}
+
+.postuser .listbox .marginleft {
+	margin-left: 10px
+}
+
+.postuser .formcontrol {
+	display: block;
+	width: 50%  !important;
+	padding: 0 23px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #eaeaea;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	height: 50px;
+	font-family: proxima nova rg;
+	font-size: 16px;
+	font-weight: 400
+}
+
+.postuser .formcontrol::placeholder {
+	color: #6c757d;
+	opacity: 1;
+	font-family: proxima nova rg;
+	font-size: 16px;
+	font-weight: 400
+}
+
+.postuser .small {
+	height: 98px!important;
+	padding-top: 15px
+}
+
+.postuser .large {
+	height: 140px!important;
+	padding-top: 15px
+}
+
+.postuser .Save {
+	width: 140px;
+	height: 50px;
+	float: right;
+	border-radius: 30px;
+	border: 1px solid;
+	background-color: transparent;
+	color: #f26522;
+	font-family: proxima nova rg;
+	cursor: pointer;
+	font-weight: 700;
+	transition: all .5s ease 0s;
+	text-align: center;
+	line-height: 3
+}
+
+.postuser .Save:hover {
+	border: 1px solid rgba( 242, 101, 34, 0.93);
+	background-color: whitesmoke;
+	color: #fff;
+	transition: all .5s ease 0s
+}
+
+.postuser .userpostbox {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px 4px #f6f6f6;
+	padding: 50px 68px 70px
+}
+
+.postuser .userpostbox form label {
+	font-family: proxima nova rg;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center
+}
+
+.postuser .userpostbox form .form-group {
+	margin-bottom: 50px
+}
+
+.postuser .userpostbox form .form-check-label {
+	font-family: proxima nova rg;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 0
+}
+
+.postuser .form-check {
+	position: relative;
+	display: block
+}
+
+.postuser .Post-Job-Offer {
+	width: 209px;
+	height: 53px;
+	background-color: #f26522;
+	color: #fff;
+	font-family: proxima nova rg;
+	font-size: 18px;
+	font-weight: 700
+}
+
+.postuser .inputfile {
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+	text-align: center;
+	overflow: hidden
+}
+
+.postuser .inputfile1 {
+	opacity: 0;
+	z-index: -1;
+	visibility: hidden;
+	text-align: center;
+	overflow: hidden
+}
+
+.postuser .box {
+	border: 1px dotted #eaeaea;
+	width: 100%;
+	height: auto;
+	padding: 3.25rem
+}
+
+.postuser .inputfile+label {
+	max-width: 80%;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: .625rem 1.25rem
+}
+
+.postuser .no-js .inputfile+label {
+	display: none
+}
+
+.postuser .inputfile:focus+label,
+.postuser .inputfile.has-focus+label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px
+}
+
+.postuser .inputfile+label * {
+	font-weight: 400
+}
+
+.postuser .inputfile+label svg {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	fill: currentColor;
+	margin-top: -.25em;
+	margin-right: .25em
+}
+
+.postuser .inputfile1+label {
+	max-width: 80%;
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	padding: .625rem 1.25rem
+}
+
+.postuser .no-js .inputfile1+label {
+	display: none
+}
+
+.postuser .inputfile1:focus+label,
+.postuser .inputfile1.has-focus+label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px
+}
+
+.postuser .inputfile1+label * {
+	font-weight: 400
+}
+
+.postuser .inputfile1+label svg {
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+	fill: currentColor;
+	margin-top: -.25em;
+	margin-right: .25em
+}
+
+.postuser .inputfile-5+label i {
+	display: block;
+	margin: 0 auto 10px
+}
+
+.postuser .inputfile-5+label svg {
+	width: 100%;
+	height: 100%;
+	fill: #f1e5e6
+}
+
+.postuser .inputfile4+label i {
+	display: block;
+	margin: 0 auto 10px
+}
+
+.postuser .inputfile4+label svg {
+	width: 100%;
+	height: 100%;
+	fill: #f1e5e6
+}
+
+
+
+
+.imtges {
+	height : 50%;
+	position : absolute;
+	top : 50px;
+	border-radius: 50%;
+	left : 31px;
+	width : 70px
+}
+@media only screen and (max-width:767px) {
+    .postuser .box {
+		border: 1px dotted #eaeaea;
+		width: 100%;
+		height: auto;
+		padding: 3.25rem 0
+	}
+    .postuser .userpostbox {
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		box-shadow: 0 0 10px 4px #f6f6f6;
+		padding: 30px
+	}
+    .verticalspace100 {
+		display: inline-block;
+		width: 100%;
+		height: 60px
+	}
+    .verticalspace60 {
+		display: inline-block;
+		width: 100%;
+		height: 40px
+	}
+	.imtges{
+		width : 100px
+	}
+}
+
+@media only screen and (max-width:364px) {
+	.postuser .Save {
+		float: left;
+		margin-top: 14px
+	}
+	
+}
+
+@media only screen and (max-width:360px) {
+	.postuser .inputfile {
+		opacity: 0;
+		z-index: -1;
+		visibility: hidden;
+		text-align: center;
+		overflow: hidden;
+		display: none
+	}
+	.postuser .inputfile+label {
+		max-width: 90%;
+		font-size: 1.25rem;
+		font-weight: 700;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		cursor: pointer;
+		display: inline-block;
+		overflow: hidden;
+		padding: 0
+	}
+	.postuser .inputfile1 {
+		opacity: 0;
+		z-index: -1;
+		visibility: hidden;
+		text-align: center;
+		overflow: hidden;
+		display: none
+	}
+	.postuser .inputfile1+label {
+		max-width: 90%;
+		font-size: 1.25rem;
+		font-weight: 700;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		cursor: pointer;
+		display: inline-block;
+		overflow: hidden;
+		padding: 0
+	}
+}
+
+.verticalspace100 {
+	display: inline-block;
+	width: 100%;
+	height: 100px
+}
+.verticalspace101 {
+	display: inline-block;
+	width: 100%;
+	height: 100px
+}
+
+.fontcolorblack {
+	color: #323232
+}
+.fontcolororange {
+	color: #f26522
+}
+.verticalspace60 {
+	display: inline-block;
+	width: 100%;
+	height: 60px
+}
+
+
+.formcontrol:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #80bdff;
+	outline: 0;
+	box-shadow: 0 0 0 .1rem rgba(255, 255, 255, .9)
+}
+
+#Job-Nature .jobnature.active1 {
+	background-color: #f26522;
+	color: #fff;
+	box-shadow: 0 5px 4px 0 #dedede;
+	cursor: pointer
+}
+
+#Job-Nature .jobnature {
+	width: 201px;
+	height: 50px;
+	background-color: #feefe8;
+	text-align: center;
+	padding: 10px 30px;
+	border-radius: 30px;
+	align-self: center;
+	line-height: 2.3;
+	color: #f26522;
+	cursor: pointer
+}
+@media only screen and (max-width:1199px) {
+    #Job-Nature .jobnature {
+		width: 100%;
+		height: 50px;
+		background-color: #feefe8;
+		text-align: center;
+		padding: 0;
+		border-radius: 30px;
+		align-self: center;
+		line-height: 3.3;
+		color: #f26522;
+		cursor: pointer;
+		display: inline-block
+	}
+}
+
+@media only screen and (max-width:991px) {
+    #Job-Nature .jobnature {
+		width: 100%;
+		height: 50px;
+		background-color: #feefe8;
+		text-align: center;
+		padding: 10px 16px;
+		border-radius: 30px;
+		align-self: center;
+		line-height: 2;
+		color: #f26522;
+		cursor: pointer;
+		display: inline-block
+	}
+}

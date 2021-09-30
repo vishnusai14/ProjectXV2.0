@@ -1,0 +1,139 @@
+
+.show {
+    min-width : 0px !important
+}
+
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scrollable > .row > .col-xs-4 {
+    display: inline-block;
+    float: none;
+}
+
+.inner   {
+    max-width : 500px !important;
+    max-height : 100px !important
+}
+
+.advancedCard{
+    max-height : 150px;
+    width : 50% !important;
+    margin : auto !important
+}
+
+@media (min-heigth: 600px) {
+    .advancedCard {
+        min-height: none;
+    } 
+}
+
+.none {
+    display : none !important
+}
+
+.pointer {
+    cursor: pointer !important
+}
+
+.androidDiv {
+    top : -300% !important;
+    left : 0px !important ;
+    width : 100% !important;
+}
+
+.androidOverlay {
+    height:  100vh;
+    max-height: 286px !important
+}
+
+.filepondimage {
+    position : relative;
+    top : -15px
+}
+
+
+
+
+/* CheckBox */
+
+
+ul.ks-cboxtags {
+    list-style: none;
+    padding: 20px; }
+    ul.ks-cboxtags li {
+      display: block; }
+      ul.ks-cboxtags li label {
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #333333;
+        font-size: 18px;
+        border-radius: 4px;
+        white-space: nowrap;
+        margin: 0 0 10px 0;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        display: block; }
+  
+  ul.ks-cboxtags li label {
+    padding: 10px 20px;
+    cursor: pointer; }
+    ul.ks-cboxtags li label::before {
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "FontAwesome";
+      font-weight: 900;
+      font-size: 24px;
+      padding: 0;
+      content: "\f10c";
+      color: rgba(0, 0, 0, 0.2);
+      -webkit-transition: -webkit-transform .3s ease-in-out;
+      transition: -webkit-transform .3s ease-in-out;
+      -o-transition: transform .3s ease-in-out;
+      transition: transform .3s ease-in-out;
+      transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+      position: absolute;
+      right: 50px;
+      margin-top: -5px;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      @media (prefers-reduced-motion: reduce) {
+        ul.ks-cboxtags li label::before {
+          -webkit-transition: none;
+          -o-transition: none;
+          transition: none; } }
+  
+  ul.ks-cboxtags li input[type="checkbox"]:checked + label::before {
+    content: "\f058";
+    -webkit-transition: -webkit-transform .3s ease-in-out;
+    transition: -webkit-transform .3s ease-in-out;
+    -o-transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    color: #7ecfc0; }
+  
+  ul.ks-cboxtags li input[type="checkbox"]:checked + label {
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s; }
+  
+  ul.ks-cboxtags li input[type="checkbox"] {
+    display: absolute; }
+  
+  ul.ks-cboxtags li input[type="checkbox"] {
+    position: absolute;
+    opacity: 0; }
+  

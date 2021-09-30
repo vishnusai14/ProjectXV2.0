@@ -1,0 +1,50 @@
+.field {
+    display : flex;
+  
+}
+.acc {
+    width : 900px;
+    max-width : 900px ;
+    max-height : 300px;
+    overflow : scroll;
+    margin : 30px
+}
+
+.cardBody {
+    min-height: 150px !important ;
+    max-height: 150px;
+    max-width: 900px;
+    overflow: scroll;
+   
+}
+
+.customCard {
+    min-height: 150px !important ;
+    margin : 10px;
+}
+
+.customRow {
+    display  : flex ;
+    flex-direction: row;
+    max-width: 500px;
+    overflow: scroll;
+}
+
+.scroll {
+    min-height: 300px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+
+@media(max-width : 711px) {
+    .field {
+        display : block;
+        width : 90vw
+    }
+    .acc {
+        width : 100%;
+        margin : 0px
+    }
+
+}

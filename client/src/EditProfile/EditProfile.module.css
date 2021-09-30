@@ -1,0 +1,56 @@
+
+.formcontrol:focus {
+    box-shadow: none;
+    border-color: whitesmoke
+}
+
+.profilebutton {
+    color : black;
+    background: whitesmoke;
+    box-shadow: none;
+    border: none
+}
+
+.profilebutton:hover {
+    color : black;
+    background: snow 
+}
+
+.profilebutton:focus {
+    background: whitesmoke;
+    box-shadow: none
+}
+
+.profilebutton:active {
+    background: whitesmoke;
+    box-shadow: none
+}
+
+.back:hover {
+    color:whitesmoke;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.addexperience:hover {
+    background: whitesmoke;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px white
+}
+.verticalspace100 {
+	display: inline-block;
+	width: 100%;
+	height: 100px
+}
+@media only screen and (max-width:767px) {
+  
+    .verticalspace100 {
+		display: inline-block;
+		width: 100%;
+		height: 60px
+	}
+}

@@ -1,0 +1,22 @@
+.HeaderAccord {
+        width : 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.HeaderAccordInnerDiv {
+    display: flex;
+    max-width: 33%;
+    width: 33%;
+    overflow: scroll;
+}
+
+.button {
+    margin : 10px ;
+    min-width : 200px;  
+    max-width : 200px; 
+    justify-content :center
+}
+
