@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-import classes from "../../Header/Header.module.css";
+import classes from "../HeaderAccord.module.css";
 import instance from "../../axios/axios";
 import Spinner from "../../Spinner/Spinner";
 import { connect } from "react-redux";
@@ -82,12 +82,24 @@ class Header extends Component {
     let accordSelected = [];
 
     selected.forEach((e) => {
-      AdvancedFields.forEach((field) => {
-        if (e.includes(field.title)) {
-          let newe = e.replace(field.title, "");
-          accordSelected.push(newe);
-        }
-      });
+      if (e.includes("Information Technology Engineering")) {
+        let newE = e.replace("Information Technology Engineering", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Mechanical Engineering")) {
+        let newE = e.replace("Mechanical Engineering", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Education and Teaching")) {
+        let newE = e.replace("Education and Teaching", "");
+        accordSelected.push(newE);
+      } else if (e.includes("The Arts")) {
+        let newE = e.replace("The Arts", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Economics")) {
+        let newE = e.replace("Economics", "");
+        accordSelected.push(newE);
+      } else {
+        accordSelected.push(e);
+      }
     });
 
     let userDataandLoading = {

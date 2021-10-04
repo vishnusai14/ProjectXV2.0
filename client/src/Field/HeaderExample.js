@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import logo from "../assests/images/logo.png";
 import Nav from "../nav/Nav";
-import classes from "../Header/Header.module.css";
+import classes from "../HeaderAccord/HeaderAccord.module.css";
 import instance from "../axios/axios";
 import Spinner from "../Spinner/Spinner";
 import { socket } from "../services/socket";
 import { connect } from "react-redux";
 import * as actionTypes from "../store/creators/authCreators";
 import Field from "./Field";
-import { AdvancedFields } from "./data";
 class Header extends Component {
   state = {
     type: [],
@@ -106,18 +105,30 @@ class Header extends Component {
       }
     }
 
+    console.log(selected);
+
     let accordSelected = [];
 
     selected.forEach((e) => {
-      AdvancedFields.forEach((field) => {
-        if (e.includes(field.title)) {
-          let newe = e.replace(field.title, "");
-          accordSelected.push(newe);
-        }
-      });
+      if (e.includes("Information Technology Engineering")) {
+        let newE = e.replace("Information Technology Engineering", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Mechanical Engineering")) {
+        let newE = e.replace("Mechanical Engineering", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Education and Teaching")) {
+        let newE = e.replace("Education and Teaching", "");
+        accordSelected.push(newE);
+      } else if (e.includes("The Arts")) {
+        let newE = e.replace("The Arts", "");
+        accordSelected.push(newE);
+      } else if (e.includes("Economics")) {
+        let newE = e.replace("Economics", "");
+        accordSelected.push(newE);
+      } else {
+        accordSelected.push(e);
+      }
     });
-    console.log(selected);
-
     let userDataandLoading = {
       loading: false,
       isAdmin: this.state.isAdmin,

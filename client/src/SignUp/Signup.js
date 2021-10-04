@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import classes from "./Signu.module.css";
+import classes from "./Signup.module.css";
 import Nav from "../nav/Nav";
 import { connect } from "react-redux";
 import * as actionTypes from "../store/creators/authCreators";

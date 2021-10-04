@@ -3,7 +3,6 @@ import classes from "./Nav.module.css";
 import { Link } from "react-router-dom";
 import logo from "../assests/images/logo.png";
 import { connect } from "react-redux";
-import Googlelogout from "../GoogleLogout/GoogleLogout";
 import instance from "../axios/axios";
 import Dialog from "@material-ui/core/Dialog";
 import DialogActions from "@material-ui/core/DialogActions";
@@ -118,7 +117,7 @@ class Nav extends Component {
     }
     let register = (
       <li className="nav-item dropdown">
-      {/* eslint-disable-next-line  */}
+        {/* eslint-disable-next-line  */}
         <a
           className="nav-link dropdown-toggle text-uppercase font-weight-bold"
           href="#"
@@ -151,13 +150,13 @@ class Nav extends Component {
     let user = (
       <>
         <li className="nav-item">
-        {/* eslint-disable-next-line  */}
+          {/* eslint-disable-next-line  */}
           <a href="#" className="nav-link text-uppercase font-weight-bold">
             <p>{this.props.username}</p>
           </a>
         </li>
         <li className="nav-item dropdown">
-        {/* eslint-disable-next-line  */}
+          {/* eslint-disable-next-line  */}
           <a
             href="#"
             className="nav-link dropdown-toggle"
@@ -176,13 +175,9 @@ class Nav extends Component {
               My Favourite
             </Link>
             <div className="dropdown-divider"></div>
-            {this.state.auth === "Google" ? (
-              <Googlelogout />
-            ) : (
-              <Link to="/logout" className="dropdown-item" href="#">
-                Logout{" "}
-              </Link>
-            )}
+            <Link to="/logout" className="dropdown-item" href="#">
+              Logout{" "}
+            </Link>
           </div>
         </li>
       </>
@@ -267,7 +262,7 @@ class Nav extends Component {
                   {this.props.isAdmin ? (
                     <>
                       <li className="nav-item">
-                      {/* eslint-disable-next-line  */}
+                        {/* eslint-disable-next-line  */}
                         <a
                           onClick={(e) => {
                             this.subscribe(e);
@@ -283,7 +278,7 @@ class Nav extends Component {
                   {this.props.isAdmin ? (
                     <>
                       <li className="nav-item">
-                      {/* eslint-disable-next-line  */}
+                        {/* eslint-disable-next-line  */}
                         <a
                           href="#"
                           className="nav-link text-uppercase font-weight-bold"
